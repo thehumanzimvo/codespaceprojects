@@ -1,0 +1,29 @@
+#red, #orange, #yellow, #green, #blue, #purple, #pink {
+    background-color: rgb(223, 221, 221);
+    width: 500px;
+    height: 50px;
+    
+    /* animation: gus 2s ease infinite;
+    animation-play-state: paused; */
+
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(223, 221, 221);
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* #red:hover, #orange:hover, #yellow:hover, #green:hover, #blue:hover, #purple:hover, #pink:hover {
+    animation-play-state: running;
+} */
+
+/* 
+@keyframes gus{
+    50% {background-color: rgb(223, 221, 221)};
+} */
+
+body {
+    background-color: rgb(170, 156, 138);
+}

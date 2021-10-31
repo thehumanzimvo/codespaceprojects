@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-size: 20px;
+}
+
+header {
+    padding: 1rem 0 0.5rem 0;
+    text-align: center;
+    background-color: #568ba4;
+    color: white;
+    animation: duck 4s ease-in-out alternate;
+}
+.title {
+    color: #f68e5f;
+    padding-bottom: 0;
+}
+.avatar {
+    border: 0.5rem solid #f76c5e;
+    border-radius: 10%;
+    background-color: black;
+    animation: aang 4s ease-in-out;
+}
+
+section {
+    display: flex;
+}
+
+.menu {
+    padding: 1rem 1rem;
+    background-color: #f5dd90;
+    /* width: 10%; */
+    flex: 1;
+}
+
+.menu-options {
+    list-style: none;
+}
+
+article {
+    flex: 9;
+    padding: 1rem 0;
+    padding-left: 1rem;
+}
+/* #324376 */
+footer {
+    text-align: center;
+    background-color: rgb(78, 76, 76);
+    color: white;
+    padding-bottom: 1rem;
+    padding: 0;
+}
+
+
+h1, h3, h2 {
+    padding-top: 1rem;
+}
+h1 {
+    font-size:2.5rem;
+}
+h2 {
+    font-size: 2rem;
+}
+h3, .codespace {
+    font-size: 1.5rem;
+}
+
+
+.buns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buns > div > a > img {
+    width: 3.5rem;
+    padding: 0;
+    margin: 0;
+    animation: funz 1s linear infinite;
+    animation-play-state: paused;
+    border-radius: 100%;
+}
+.buns > div > a > img:hover {
+    animation-play-state: running;
+}
+
+.linkedin, .github, .outlook {
+    border-radius: 100%;
+    width: 4rem;
+    height: 3.5rem;
+    padding: 0;
+}
+
+@keyframes funz {
+
+    
+    50% {
+        background-color: #ff9900;
+    }
+}
